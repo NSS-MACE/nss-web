@@ -1,6 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 export default function Team(){
+    const [selectedpo, setSelectedpo] = useState(1);
+    const [selectedvs, setSelectedvs] = useState(1);
+    
     return (
       <section id="team" className="team section-bg">
       <div className="container">
@@ -9,10 +12,10 @@ export default function Team(){
         </div>
 
         <div className="wrapper">
-          <input className="radio" id="first" name="group1" type="radio" checked/>
-          <input className="radio" id="sec" name="group1" type="radio"/>
-          <input className="radio" id="third" name="group1" type="radio"/>
-          <input className="radio" id="fourth" name="group1" type="radio"/>
+          <input className="radio" id="first" name="group1" type="radio" checked={selectedpo===1} onChange={() => setSelectedpo(1)}/>
+          <input className="radio" id="sec" name="group1" type="radio" checked={selectedpo===2} onChange={() => setSelectedpo(2)}/> 
+          <input className="radio" id="third" name="group1" type="radio" checked={selectedpo===3} onChange={() => setSelectedpo(3)}/>
+          <input className="radio" id="fourth" name="group1" type="radio" checked={selectedpo===4} onChange={() => setSelectedpo(4)}/>
 
           <div className="tabs">
             <label className="tab" id="first-tab" for="first">Team 2020-22'</label>
@@ -216,13 +219,13 @@ export default function Team(){
         </div>
 
         <div className="wrapper">
-          <input className="radio" id="one" name="group2" type="radio" checked/>
-          <input className="radio" id="two" name="group2" type="radio"/>
-          <input className="radio" id="three" name="group2" type="radio"/>
-          <input className="radio" id="four" name="group2" type="radio"/>
-          <input className="radio" id="five" name="group2" type="radio"/>
-          <input className="radio" id="six" name="group2" type="radio"/>
-          <input className="radio" id="seven" name="group2" type="radio"/>
+          <input className="radio" id="one" name="group2" type="radio" checked={selectedvs===1} onChange={() => setSelectedvs(1)}/>
+          <input className="radio" id="two" name="group2" type="radio" checked={selectedvs===2} onChange={() => setSelectedvs(2)}/>
+          <input className="radio" id="three" name="group2" type="radio" checked={selectedvs===3} onChange={() => setSelectedvs(3)}/>
+          <input className="radio" id="four" name="group2" type="radio" checked={selectedvs===4} onChange={() => setSelectedvs(4)}/>
+          <input className="radio" id="five" name="group2" type="radio" checked={selectedvs===5} onChange={() => setSelectedvs(5)}/>
+          <input className="radio" id="six" name="group2" type="radio" checked={selectedvs===6} onChange={() => setSelectedvs(6)}/>
+          <input className="radio" id="seven" name="group2" type="radio" checked={selectedvs===7} onChange={() => setSelectedvs(7)}/>
 
           <div className="tabs">
             <label className="tab" id="one-tab" for="one">Team 2021-22'</label>
