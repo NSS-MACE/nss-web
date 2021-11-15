@@ -8,7 +8,7 @@ export default function Events(){
             <h2>Recent Events</h2>
           </div>
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-3 col-sm-6">
               <div className="card-text-centre">
                   <img src="assets/img/events/1.jpg" className="card-img-top" alt=""/>
                   <div className="card-body">
@@ -18,7 +18,7 @@ export default function Events(){
                   </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-sm-6">
               <div className="card-text-centre">
                   <img src="assets/img/events/2.jpg" className="card-img-top" alt=""/>
                   <div className="card-body">
@@ -28,7 +28,7 @@ export default function Events(){
                   </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-sm-6">
               <div className="card-text-centre">
                   <img src="assets/img/events/3.jpg" className="card-img-top" alt=""/>
                   <div className="card-body">
@@ -38,12 +38,12 @@ export default function Events(){
                   </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-sm-6">
               <div className="card-text-centre">
                   <img src="assets/img/events/4.jpg" className="card-img-top" alt=""/>
                   <div className="card-body">
-                      <h5 className="card-title">Session with Jayakumar IAS</h5>
-                      <p className="card-text"> National Reading Day</p>
+                      <h5 className="card-title">Reading Day</h5>
+                      <p className="card-text">Session with Jayakumar IAS</p>
                       <a href="/event4">Learn More</a>
                   </div>
               </div>
