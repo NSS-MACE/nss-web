@@ -31,7 +31,7 @@ export default function Highlights(){
             <div className="col-md-6 d-flex align-items-stretch mt-4">
               <div className="card" style={{backgroundImage:'url("assets/img/award4.jpg")'}}>
                 <div className="card-body">
-                  <h5 className="card-title">Miss Aathira representing KTU NSS Cell at Republic Day Parade at New Delhi</h5>
+                  <h5 className="card-title">Miss Athira R representing KTU NSS Cell at Republic Day Parade at New Delhi</h5>
                 </div>
               </div>
             </div>
