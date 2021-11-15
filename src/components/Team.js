@@ -593,7 +593,7 @@ export default function Team(){
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
-                      <img src="assets/img/team/vs/team-2018/Adarsh .jpg" className="img-fluid" alt=""/>
+                      <img src="assets/img/team/vs/team-2018/Adarsh.jpg" className="img-fluid" alt=""/>
                     </div>
                     <div className="member-info">
                       <h4>Adarsh K</h4>
