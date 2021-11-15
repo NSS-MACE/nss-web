@@ -48,6 +48,26 @@ export default function Events(){
                   </div>
               </div>
             </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="card-text-centre">
+                  <img src="assets/img/events/5.jpg" className="card-img-top" alt=""/>
+                  <div className="card-body">
+                      <h5 className="card-title">Environment Day</h5>
+                      <p className="card-text">Session with Maitreyan</p>
+                      <a href="/event5">Learn More</a>
+                  </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="card-text-centre">
+                  <img src="assets/img/events/6.jpg" className="card-img-top" alt=""/>
+                  <div className="card-body">
+                      <h5 className="card-title">Smile Please!</h5>
+                      <p className="card-text">Series of five sessions</p>
+                      <a href="/event6">Learn More</a>
+                  </div>
+              </div>
+            </div>
           </div>
       </div>
    </section>
