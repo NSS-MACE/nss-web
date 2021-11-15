@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   transition: 0.3s;
-  font-size: 28px !important;
+  font-size: 24px !important;
 }
 .header-social-links a:hover {
   color:#5c85d6 !important;
@@ -168,6 +168,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   .header-social-links a{
     font-size: 18px !important;
+  }
+}
+@media (max-width: 468px){
+  .header-social-links a{
+    font-size: 15px !important;
   }
 }
 
@@ -479,7 +484,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
