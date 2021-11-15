@@ -633,7 +633,6 @@ section {
   color: #0c7f90;
   text-decoration: none;
   font-size: 15px;
-  margin-top: auto;
   font-weight: 600;
 }
 
@@ -644,6 +643,23 @@ section {
 
 #events .card-img-top {
   height: 250px !important;
+}
+
+@media (max-width:1000px){
+  #events .card-img-top {
+    height: 150px !important;
+  }
+  #events .card-body .card-title{
+    font-size: 1rem;
+  }
+
+  #events .card-body .card-text{
+    font-size: 0.85rem;
+  }
+
+  #events .card-body a {
+    font-size: 10px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -861,6 +877,15 @@ section {
 .team .member .member-info a{
   float:inline-end;
   font-size: 30px;
+}
+
+@media (max-width:1000px){
+  .team .member .member-info h4{
+    font-size: 15px;
+  }
+  .team .member .member-info span{
+    font-size: 10px;
+  }
 }
 
 /*--------------------------------------------------------------
