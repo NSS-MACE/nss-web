@@ -162,9 +162,12 @@ h1, h2, h3, h4, h5, h6 {
 .header-social-links a i {
   line-height: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .header-social-links {
     padding: 0 15px 0 0;
+  }
+  .header-social-links a{
+    font-size: 18px !important;
   }
 }
 
@@ -585,8 +588,11 @@ section {
   text-align: center;
   margin-bottom: 15px;
 }
-.highlights .card-title a {
-  color: #150517;
+
+@media (max-width:1000px) {
+  .highlights .card-title{
+    font-size : 1rem;
+    }
 }
 
 /*--------------------------------------------------------------
