@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { HashRouter as Router, Route, Switch} from "react-router-dom";
 import Home from './Home';
 import Event1 from './events/Event1';
 import Event2 from './events/Event2';
@@ -10,7 +10,7 @@ import Event6 from './events/Event6';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div>
         <Switch>
           <Route path="/" exact component={Home} />
