@@ -14,7 +14,7 @@ export default function Events(){
                   <div className="card-body">
                       <h5 className="card-title">Nilavu</h5>
                       <p className="card-text">Talks on stress management</p>
-                      <a href="/event1">Learn More</a>
+                      <a href="/#/event1">Learn More</a>
                   </div>
               </div>
             </div>
@@ -24,7 +24,7 @@ export default function Events(){
                   <div className="card-body">
                       <h5 className="card-title">Dealing with homophobia</h5>
                       <p className="card-text"> #MACEmbraces</p>
-                      <a href="/event2">Learn More</a>
+                      <a href="/#/event2">Learn More</a>
                   </div>
               </div>
             </div>
@@ -34,7 +34,7 @@ export default function Events(){
                   <div className="card-body">
                       <h5 className="card-title">Mm...</h5>
                       <p className="card-text"> Food Vlogging Competition</p>
-                      <a href="/event3">Learn More</a>
+                      <a href="/#/event3">Learn More</a>
                   </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ export default function Events(){
                   <div className="card-body">
                       <h5 className="card-title">Reading Day</h5>
                       <p className="card-text">Session with Jayakumar IAS</p>
-                      <a href="/event4">Learn More</a>
+                      <a href="/#/event4">Learn More</a>
                   </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function Events(){
                   <div className="card-body">
                       <h5 className="card-title">Environment Day</h5>
                       <p className="card-text">Session with Maitreyan</p>
-                      <a href="/event5">Learn More</a>
+                      <a href="/#/event5">Learn More</a>
                   </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function Events(){
                   <div className="card-body">
                       <h5 className="card-title">Smile Please!</h5>
                       <p className="card-text">Series of five sessions</p>
-                      <a href="/event6">Learn More</a>
+                      <a href="/#/event6">Learn More</a>
                   </div>
               </div>
             </div>
