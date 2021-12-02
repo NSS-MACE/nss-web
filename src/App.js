@@ -14,12 +14,12 @@ function App() {
       <div>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/event1" component={Event1} />
-          <Route path="/event2" component={Event2} />
-          <Route path="/event3" component={Event3} />
-          <Route path="/event4" component={Event4} />
-          <Route path="/event5" component={Event5} />
-          <Route path="/event6" component={Event6} />
+          <Route path="/#/event1" component={Event1} />
+          <Route path="/#/event2" component={Event2} />
+          <Route path="/#/event3" component={Event3} />
+          <Route path="/#/event4" component={Event4} />
+          <Route path="/#/event5" component={Event5} />
+          <Route path="/#/event6" component={Event6} />
         </Switch>
       </div>
     </Router>
