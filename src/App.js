@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { HashRouter as Router, Route, Switch} from "react-router-dom";
 import Home from './Home';
 import Event1 from './events/Event1';
 import Event2 from './events/Event2';
@@ -10,8 +10,7 @@ import Event6 from './events/Event6';
 
 function App() {
   return (
-    <Router basename="/nss-web">
-      <div>
+    <Router>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/event1" component={Event1} />
@@ -21,7 +20,6 @@ function App() {
           <Route path="/event5" component={Event5} />
           <Route path="/event6" component={Event6} />
         </Switch>
-      </div>
     </Router>
   );
 }
