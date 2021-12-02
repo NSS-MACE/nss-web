@@ -10,7 +10,7 @@ import Event6 from './events/Event6';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Switch>
           <Route path="/" exact component={Home} />
