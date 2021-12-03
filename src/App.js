@@ -10,7 +10,7 @@ import Event6 from './events/Event6';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/nss-web">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/event1" component={Event1} />
