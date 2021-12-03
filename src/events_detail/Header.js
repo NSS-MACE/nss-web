@@ -93,12 +93,12 @@ export default function Header(){
   
         <nav id="navbar" className="navbar order-last order-lg-0">
           <ul>
-            <li><a className="nav-link scrollto" href="/nss-web/#">Home</a></li>
-            <li><a className="nav-link scrollto" href="/nss-web/#/#about">About</a></li>
-            <li><a className="nav-link scrollto active" href="/nss-web/#/#events">Events</a></li>
-            <li><a className="nav-link scrollto " href="/nss-web/#/#gallery">Gallery</a></li>
-            <li><a className="nav-link scrollto" href="/nss-web/#/#team">Team</a></li>
-            <li><a className="nav-link scrollto" href="/nss-web/#/#footer">Connect</a></li>
+            <li><a className="nav-link scrollto" href="/nss-web">Home</a></li>
+            <li><a className="nav-link scrollto" href="/nss-web">About</a></li>
+            <li><a className="nav-link scrollto active" href="/nss-web">Events</a></li>
+            <li><a className="nav-link scrollto " href="/nss-web">Gallery</a></li>
+            <li><a className="nav-link scrollto" href="/nss-web">Team</a></li>
+            <li><a className="nav-link scrollto" href="/nss-web">Connect</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
         </nav>
