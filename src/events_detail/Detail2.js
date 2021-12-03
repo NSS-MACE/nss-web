@@ -8,7 +8,7 @@ export default function Detail2(){
           <div class="container">
     
             <ol>
-              <li><a href="/">Home</a></li>
+              <li><a href="/nss-web">Home</a></li>
               <li>Event Details</li>
             </ol>
             <h2>Dealing with homophobia</h2>
