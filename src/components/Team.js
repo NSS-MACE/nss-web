@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 export default function Team(){
     const [selectedpo, setSelectedpo] = useState(1);
     const [selectedvs, setSelectedvs] = useState(1);
-    
+
     return (
       <section id="team" className="team section-bg">
       <div className="container">
@@ -13,7 +13,7 @@ export default function Team(){
 
         <div className="wrapper">
           <input className="radio" id="first" name="group1" type="radio" checked={selectedpo===1} onChange={() => setSelectedpo(1)}/>
-          <input className="radio" id="sec" name="group1" type="radio" checked={selectedpo===2} onChange={() => setSelectedpo(2)}/> 
+          <input className="radio" id="sec" name="group1" type="radio" checked={selectedpo===2} onChange={() => setSelectedpo(2)}/>
           <input className="radio" id="third" name="group1" type="radio" checked={selectedpo===3} onChange={() => setSelectedpo(3)}/>
           <input className="radio" id="fourth" name="group1" type="radio" checked={selectedpo===4} onChange={() => setSelectedpo(4)}/>
 
@@ -23,10 +23,10 @@ export default function Team(){
             <label className="tab" id="third-tab" for="third">Team 2016-19'</label>
             <label className="tab" id="fourth-tab" for="fourth">Team 2014-16'</label>
           </div>
-        
+
           <div className="panels">
 
-            <div className="panel" id="first-panel"> 
+            <div className="panel" id="first-panel">
               <div className="row">
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
@@ -39,7 +39,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -51,7 +51,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -70,7 +70,7 @@ export default function Team(){
                       <img src="assets/img/team/po/Jinsa.jpg" className="img-fluid" alt=""/>
                     </div>
                     <div className="member-info">
-                      <h4>Dr. Jinsa Kuruvila</h4>
+                      <h4>Dr. Jinsa Kuruvilla</h4>
                       <span>Unit 578</span>
                     </div>
                   </div>
@@ -78,7 +78,7 @@ export default function Team(){
               </div>
             </div>
 
-            <div className="panel" id="sec-panel"> 
+            <div className="panel" id="sec-panel">
               <div className="row">
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
@@ -91,7 +91,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -115,7 +115,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -130,7 +130,7 @@ export default function Team(){
               </div>
             </div>
 
-            <div className="panel" id="third-panel"> 
+            <div className="panel" id="third-panel">
               <div className="row">
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
@@ -155,7 +155,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -167,7 +167,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -182,7 +182,7 @@ export default function Team(){
               </div>
             </div>
 
-            <div className="panel" id="fourth-panel"> 
+            <div className="panel" id="fourth-panel">
               <div className="row">
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
@@ -195,7 +195,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -236,10 +236,10 @@ export default function Team(){
             <label className="tab" id="six-tab" for="six">Team 2016-17'</label>
             <label className="tab" id="seven-tab" for="seven">Team 2015-16'</label>
           </div>
-        
+
           <div className="panels">
-          
-            <div className="panel" id="one-panel"> 
+
+            <div className="panel" id="one-panel">
               <div className="row">
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
@@ -252,7 +252,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -264,7 +264,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -276,7 +276,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -288,7 +288,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -300,7 +300,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -338,8 +338,8 @@ export default function Team(){
                 </div>
               </div>
             </div>
-          
-            <div className="panel" id="two-panel"> 
+
+            <div className="panel" id="two-panel">
               <div className="row">
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
@@ -352,7 +352,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -364,7 +364,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -376,7 +376,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -388,7 +388,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -400,7 +400,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -412,7 +412,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -423,8 +423,8 @@ export default function Team(){
                       <span>Unit 578</span>
                     </div>
                   </div>
-                </div>  
-                                
+                </div>
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -438,8 +438,8 @@ export default function Team(){
                 </div>
               </div>
             </div>
-            
-            <div className="panel" id="three-panel"> 
+
+            <div className="panel" id="three-panel">
               <div className="row">
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
@@ -452,7 +452,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -464,7 +464,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -476,7 +476,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -488,7 +488,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -500,7 +500,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -512,7 +512,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -539,7 +539,7 @@ export default function Team(){
               </div>
             </div>
 
-            <div className="panel" id="four-panel"> 
+            <div className="panel" id="four-panel">
               <div className="row">
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
@@ -552,7 +552,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -564,7 +564,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -576,7 +576,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-    
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -588,8 +588,8 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
-                
+
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -613,7 +613,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -640,7 +640,7 @@ export default function Team(){
               </div>
             </div>
 
-            <div className="panel" id="five-panel"> 
+            <div className="panel" id="five-panel">
               <div className="row">
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
@@ -653,8 +653,8 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
-                
+
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -666,7 +666,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -678,7 +678,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                 
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -714,7 +714,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -741,7 +741,7 @@ export default function Team(){
               </div>
             </div>
 
-            <div className="panel" id="six-panel"> 
+            <div className="panel" id="six-panel">
               <div className="row">
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
@@ -766,7 +766,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
@@ -793,7 +793,7 @@ export default function Team(){
               </div>
             </div>
 
-            <div className="panel" id="seven-panel"> 
+            <div className="panel" id="seven-panel">
               <div className="row">
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
@@ -818,7 +818,7 @@ export default function Team(){
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                   <div className="member">
                     <div className="member-img">
