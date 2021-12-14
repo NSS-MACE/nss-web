@@ -6,33 +6,33 @@ export default function Detail3(){
 
         <section id="breadcrumbs" class="breadcrumbs">
           <div class="container">
-    
+
             <ol>
-              <li><a href="/nss-web">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li>Event Details</li>
             </ol>
             <h2>Mm...</h2>
-    
+
           </div>
         </section>
 
         <section id="gallery-details" class="gallery-details">
           <div class="container">
-    
+
             <div class="row gy-4">
-    
+
               <div class="col-lg-8">
                 <div class="swiper-container">
                   <div class="swiper-wrapper align-items-center">
-    
+
                     <div class="swiper-slide">
                       <img src="assets/img/events/33.jpg" alt="" width="100%"/>
                     </div>
-    
+
                   </div>
                 </div>
               </div>
-    
+
               <div class="col-lg-4">
                 <div class="gallery-info">
                   <h3>Event information</h3>
@@ -50,12 +50,12 @@ export default function Detail3(){
                   <p>നിങ്ങളുടെ ഇഷ്ട വിഭവങ്ങളെക്കുറിച്ചു വീഡിയോ ആയി ഞങ്ങൾക്ക് അയച്ചുതരിക.</p>
                 </div>
               </div>
-    
+
             </div>
-    
+
           </div>
         </section>
-    
+
       </main>
     );
 }

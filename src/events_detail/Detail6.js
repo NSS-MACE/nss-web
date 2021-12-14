@@ -6,33 +6,33 @@ export default function Detail6(){
 
         <section id="breadcrumbs" class="breadcrumbs">
           <div class="container">
-    
+
             <ol>
-              <li><a href="/nss-web">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li>Event Details</li>
             </ol>
             <h2>Smile Please!</h2>
-    
+
           </div>
         </section>
-    
+
         <section id="gallery-details" class="gallery-details">
           <div class="container">
-    
+
             <div class="row gy-4">
-    
+
               <div class="col-lg-8">
                 <div class="swiper-container">
                   <div class="swiper-wrapper align-items-center">
-    
+
                     <div class="swiper-slide">
                       <img src="assets/img/events/66.jpg" alt="" width="100%"/>
                     </div>
-    
+
                   </div>
                 </div>
               </div>
-    
+
               <div class="col-lg-4">
                 <div class="gallery-info">
                   <h3>Event information</h3>
@@ -51,12 +51,12 @@ export default function Detail6(){
                   <p>COVID-19 സൃഷ്ടിച്ച അനിശ്ചിതത്വത്തിലും ഏകാന്തതയിലും ബുദ്ധിമുട്ടനുഭവിക്കുന്ന വിദ്യാർത്ഥികൾക്ക്,വിധിയെ വെല്ലുവിളിച്ച് ജീവിത സാഹചര്യങ്ങളോട് പോരാടുന്ന ഇവരുടെ ജീവിതം മുന്നോട്ട് കുതിക്കാനുള്ള പ്രചോദനമാകട്ടെ!!!</p>
                 </div>
               </div>
-    
+
             </div>
-    
+
           </div>
         </section>
-    
+
       </main>
     );
 }
