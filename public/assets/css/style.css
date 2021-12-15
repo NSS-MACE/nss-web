@@ -520,10 +520,6 @@ section {
 # About
 --------------------------------------------------------------*/
 
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-
 .about .button {
   background-color: #98b2e6;
   border-radius: 100px;
@@ -540,6 +536,9 @@ section {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-bottom: 10px;
+  display: grid;
+
 }
 
 .about .button:hover {

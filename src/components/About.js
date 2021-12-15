@@ -31,8 +31,10 @@ export default function About(){
                 It has helped the students to bring in some principles and philosophies in their lives, to help them become mature and enlightened citizens.
               </p>
             </div>
-          </div><br/>
-          <a href="assets/report.pdf" className="button" style={{margin:'auto',display:'grid'}}>View NSS MACE Report 2020-21'</a>
+          </div>
+          <a href="assets/report17-19.pdf" className="button">View NSS MACE Report 2017-19'</a>
+          <a href="assets/report19-20.pdf" className="button">View NSS MACE Report 2019-20'</a>
+          <a href="assets/report20-21.pdf" className="button">View NSS MACE Report 2020-21'</a>
         </div>
       </section>
     );
