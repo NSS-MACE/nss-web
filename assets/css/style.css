@@ -524,6 +524,28 @@ section {
   margin-bottom: 0;
 }
 
+.about .button {
+  background-color: #98b2e6;
+  border-radius: 100px;
+  box-shadow: rgb(51, 102, 204, .2) 0 -25px 18px -14px inset,rgb(51, 102, 204, .15) 0 1px 2px,rgb(51, 102, 204, .15) 0 2px 4px,rgb(51, 102, 204, .15) 0 4px 8px,rgb(51, 102, 204, .15) 0 8px 16px,rgb(51, 102, 204, .15) 0 16px 32px;
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.about .button:hover {
+  box-shadow: rgb(51,102,204,.35) 0 -25px 18px -14px inset,rgb(51,102,204,.25) 0 1px 2px,rgb(51,102,204,.25) 0 2px 4px,rgb(51,102,204,.25) 0 4px 8px,rgb(51,102,204,.25) 0 8px 16px,rgb(51,102,204,.25) 0 16px 32px;
+}
+
 @media (max-width:768px) {
   .about .content p{
     font-size: 14px;
