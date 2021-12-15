@@ -522,7 +522,7 @@ section {
 
 .about .button {
   background-color: #98b2e6;
-  border-radius: 100px;
+  border-radius: 15px;
   box-shadow: rgb(51, 102, 204, .2) 0 -25px 18px -14px inset,rgb(51, 102, 204, .15) 0 1px 2px,rgb(51, 102, 204, .15) 0 2px 4px,rgb(51, 102, 204, .15) 0 4px 8px,rgb(51, 102, 204, .15) 0 8px 16px,rgb(51, 102, 204, .15) 0 16px 32px;
   color: blue;
   cursor: pointer;
@@ -537,8 +537,6 @@ section {
   -webkit-user-select: none;
   touch-action: manipulation;
   margin-bottom: 10px;
-  display: grid;
-
 }
 
 .about .button:hover {
@@ -548,6 +546,9 @@ section {
 @media (max-width:768px) {
   .about .content p{
     font-size: 14px;
+  }
+  .about .button {
+    font-size: 12px;
   }
 }
 
