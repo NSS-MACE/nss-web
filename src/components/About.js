@@ -32,9 +32,11 @@ export default function About(){
               </p>
             </div>
           </div>
-          <a href="assets/report17-19.pdf" className="button">View NSS MACE Report 2017-19'</a>
-          <a href="assets/report19-20.pdf" className="button">View NSS MACE Report 2019-20'</a>
-          <a href="assets/report20-21.pdf" className="button">View NSS MACE Report 2020-21'</a>
+          <div className="row">
+            <a href="assets/report17-19.pdf" className="col-lg-4 button">View NSS MACE Report 2017-19'</a>
+            <a href="assets/report19-20.pdf" className="col-lg-4 button">View NSS MACE Report 2019-20'</a>
+            <a href="assets/report20-21.pdf" className="col-lg-4 button">View NSS MACE Report 2020-21'</a>
+          </div>
         </div>
       </section>
     );
