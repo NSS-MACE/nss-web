@@ -2,7 +2,7 @@
   "name": "nss-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nss-mace.github.io/nss-web/",
+  "homepage": "https://nss-mace.github.io",
   "engines": {
     "node": "16.2.0",
     "npm": "7.13.0"
